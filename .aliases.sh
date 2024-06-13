@@ -7,6 +7,9 @@ alias gp="git push"
 alias gfp="git fetch --prune"
 alias gitConfigAll="git config --list --show-origin"
 
+# checkout a new git branch 
+alias git-checkout-new-branch="git checkout -b "
+
 # roll back the last git commit, might need to 
 # redo git history 
 alias git-rollback-commit="git reset --soft HEAD~1" 
