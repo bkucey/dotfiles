@@ -20,6 +20,8 @@ alias git-rollback-commit="git reset --soft HEAD~1"
 
 alias npm-reinstall-modules="rm -rf node_modules && npm install"
 
+alias chmod-executable-by-all="chmod a+x"
+
 alias install-nvm="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
 
 alias shutdown-now="sudo shutdown -h now"
