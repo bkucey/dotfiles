@@ -18,6 +18,7 @@ alias git-checkout-new-branch="git checkout -b "
 # redo git history 
 alias git-rollback-commit="git reset --soft HEAD~1" 
 
+alias npm-remove-node-modules="rm -rf node_modules"
 alias npm-reinstall-modules="rm -rf node_modules && npm install"
 
 alias chmod-executable-by-all="chmod a+x"
