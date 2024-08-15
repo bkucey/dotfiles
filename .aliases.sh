@@ -3,7 +3,8 @@ echo "+++ Brenn's aliases: loading"
 alias gs="git status"
 alias ga="git add"
 alias gm="git mv"
-alias gc="git commit -m"
+alias gc="git commit"
+alias gcm="git commit -m"
 alias gp="git push"
 alias gfp="git fetch --prune"
 alias gitConfigAll="git config --list --show-origin"
@@ -25,6 +26,6 @@ alias chmod-executable-by-all="chmod a+x"
 
 alias install-nvm="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
 
-alias shutdown-now="sudo shutdown -h now"
+alias shutdown-now="shutdown -h now"
 
 echo "--- Brenn's aliases: loaded"
