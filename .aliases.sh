@@ -19,6 +19,9 @@ alias git-checkout-new-branch="git checkout -b "
 # redo git history 
 alias git-rollback-commit="git reset --soft HEAD~1" 
 
+# VS Code diff 2 files 
+alias vscode-diff="code --diff"
+
 alias npm-remove-node-modules="rm -rf node_modules"
 alias npm-reinstall-modules="rm -rf node_modules && npm install"
 
