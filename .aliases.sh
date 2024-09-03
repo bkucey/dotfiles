@@ -1,5 +1,7 @@
 echo "+++ Brenn's aliases: loading" 
 
+alias install-bkucey-notes="git clone https://github.com/bkucey/notes.git"
+
 alias gs="git status"
 alias ga="git add"
 alias gm="git mv"
