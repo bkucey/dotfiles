@@ -13,7 +13,7 @@ alias gpnv="git push --no-verify"
 alias gpfnv="git push --force --no-verify"
 alias gpf="git push --force "
 
-alias gpu="git pull"
+alias gpl="git pull"
 alias gfp="git fetch --prune"
 alias gitConfigAll="git config --list --show-origin"
 
