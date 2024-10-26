@@ -35,6 +35,9 @@ alias vscode-diff="code --diff"
 # Create React Typescript app 
 alias create-react-typescript-app="npx create-react-app my-app --template typescript"
 
+# install deno 
+alias deno-install="curl -fsSL https://deno.land/install.sh | sh"
+
 alias npm-remove-node-modules="rm -rf node_modules"
 alias npm-reinstall-modules="rm -rf node_modules && npm install"
 
