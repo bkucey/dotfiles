@@ -23,7 +23,7 @@ alias git-merge-origin-master="git merge origin/master"
 alias git-quick-fetch-merge="git fetch --prune && git merge origin/master"
 
 # checkout a new git branch 
-alias git-checkout-new-branch="git checkout -b "
+alias git-checkout-new-branch-from-master="git checkout master && git pull && git checkout -b "
 
 # roll back the last git commit, might need to 
 # redo git history 
