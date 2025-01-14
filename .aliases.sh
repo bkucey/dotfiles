@@ -9,9 +9,10 @@ alias gc="git commit"
 alias gcm="git commit -m"
 
 alias gp="git push"
-alias gpnv="git push --no-verify"
-alias gpfnv="git push --force --no-verify"
-alias gpf="git push --force "
+# example force and no-verify commands 
+# git push --no-verify
+# git push --force --no-verify
+# git push --force
 
 alias gpl="git pull"
 alias gfp="git fetch --prune"
