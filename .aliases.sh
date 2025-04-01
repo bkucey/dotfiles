@@ -18,6 +18,14 @@ alias gpl="git pull"
 alias gfp="git fetch --prune"
 alias gitConfigAll="git config --list --show-origin"
 
+gcmp () {
+    git commit -m "$1" && gp 
+}
+
+git-add-all-commit-push () {
+    git add . && git commit -m "$1" && gp 
+}
+
 # merge changes from master branch 
 alias git-merge-origin-master="git merge origin/master"
 
