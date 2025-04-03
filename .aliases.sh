@@ -51,6 +51,7 @@ alias npm-remove-node-modules="rm -rf node_modules"
 alias npm-reinstall-modules="rm -rf node_modules && npm install"
 
 alias chmod-executable-by-all="chmod a+x"
+alias chmod-executable-by-user="chmod u+x"
 
 alias install-nvm="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
 
