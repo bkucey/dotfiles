@@ -22,6 +22,10 @@ gcmp () {
     git commit -m "$1" && gp 
 }
 
+alias gittoplevel="git rev-parse --show-toplevel"
+# Go to the git root directory 
+alias cd-gittoplevel="cd $(git rev-parse --show-toplevel)"
+
 git-add-all-commit-push () {
     git add . && git commit -m "$1" && gp 
 }
