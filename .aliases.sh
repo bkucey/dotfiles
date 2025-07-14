@@ -27,7 +27,7 @@ alias gittoplevel="git rev-parse --show-toplevel"
 alias cd-gittoplevel="cd $(git rev-parse --show-toplevel)"
 
 git-add-all-commit-push () {
-    git add . && git commit -m "$1" && gp 
+  cd $(git rev-parse --show-toplevel) && git add . && git commit -m "$1" && gp 
 }
 
 # merge changes from master branch 
