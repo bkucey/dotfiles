@@ -26,7 +26,7 @@ alias gittoplevel="git rev-parse --show-toplevel"
 # Go to the git root directory 
 alias cd-gittoplevel="cd $(git rev-parse --show-toplevel)"
 
-git-add-all-commit-push () {
+git-cd-add-all-commit-push () {
   cd $(git rev-parse --show-toplevel) && git add . && git commit -m "$1" && gp 
 }
 
